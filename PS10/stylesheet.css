@@ -1,0 +1,41 @@
+body {
+    align-items: center;
+}
+
+fieldset {
+    border: #3a3838;
+    border-style: ridge;
+    float: left;
+    width: 200px;
+    height: 350px;
+}
+
+input[required]:invalid,
+input[pattern]:invalid {
+    border-color: #a5340b;
+}
+
+input[required]:valid,
+input[pattern]:valid {
+    border-color: #0b9900;
+}
+
+input {
+    box-sizing: border-box;
+    border: 3px solid #d6d0d0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:focus {
+    border: 3px solid rgb(48, 125, 192);
+    box-shadow: #0b3cdd;
+}
+
+form {
+    text-align: left;
+    padding: 0;
+    margin-left: 0%;
+    text-indent: 0%;
+}

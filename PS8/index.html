@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS8</title>
+    <style>
+        body {
+            align-items: center;
+        }
+        
+        fieldset {
+            border: #3a3838;
+            border-style: ridge;
+            float: left;
+            width: 200px;
+            height: 350px;
+        }
+        
+        input {
+            box-sizing: border-box;
+            border: 3px solid #d6d0d0;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+        }
+        
+        input:focus {
+            border: 3px solid rgb(48, 125, 192);
+            box-shadow: #0b3cdd;
+        }
+        
+        form {
+            text-align: left;
+            padding: 0;
+            margin-left: 0%;
+            text-indent: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="post" action="/information/1">
+        <fieldset id="Create New Account">
+            <legend>Create New Account</legend>
+            <ol style="list-style-type:none;">
+                <li>
+                    <label for="name">First Name</label><br>
+                    <input type="text" name="name" id="name" autofocus id="name" placeholder="'John'" required><br>
+                </li>
+                <li>
+                    <label for="name">Last Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="'Smith'" required><br>
+                </li>
+                <li>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="user@example.com"><br></li>
+                <li>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="name" autocomplete="off" placeholder="8-10 characters"><br>
+                </li>
+                <li>
+                    <label for="password">Password Confirmation</label><br>
+                    <input type="password" name="password" id="password" autocomplete="off" placeholder="Type password a"><br>
+                </li>
+                <li>
+                    <br><button type="submit" value="sign up">sign up </button>
+                </li>
+            </ol>
+        </fieldset>
+    </form>
+</body>
+
+</html>

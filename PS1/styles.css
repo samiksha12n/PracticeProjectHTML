@@ -1,0 +1,72 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+    margin: 14%;
+}
+
+header {
+    margin: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: #337AFF;
+}
+
+#mon {
+    margin-top: -20pc;
+    padding-right: 5%;
+    float: inline-end;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+footer li {
+    display: inline;
+    padding: 10px;
+    color: #337AFF;
+}
+
+.main {
+    margin: 30px 10px;
+}
+
+.para2 {
+    width: 30%;
+    float: inline-end;
+    padding-right: 22%;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.para3 {
+    width: 42%;
+}
+
+.para4 {
+    width: 73%;
+}
+
+.comments {
+    padding-top: 20px;
+}
